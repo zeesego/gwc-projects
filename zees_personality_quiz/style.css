@@ -1,0 +1,67 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url("assets/quizbg.jpg");
+  background-size: contain;
+  
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #c7ed9c;
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
+  }
+
+h2 {
+  margin-top: 2em; 
+  text-align: center;
+  color: hotpink;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+p {
+  text-align: center;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  background-color: #d9f1f9;
+  width: 100%;
+  padding: 10px;
+  border: 5px solid pink;
+  border-radius: 40px;
+
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  }
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+  width: 10em;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 5px;
+  
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  background-color: #fafcd9;
+  border-radius: 10px;
+  border-color: #f2ebe1;
+  
+}
