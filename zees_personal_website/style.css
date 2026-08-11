@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+ }
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #EF98B4; 
+}
+/*STYLE HEADER*/
+header {
+  background-image: url('assets/wavyvectorflourish.jpg');
+  background-color: purple;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+    max-height: 170px; 
+
+}
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-family: "Emilys Candy", serif;
+  padding-top: 1em;
+  font-weight: 400;
+
+}
+
+p {
+  color: aquamarine;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 2em;
+}
+
+.Intro{
+  color: aquamarine;
+  margin-top: 1em;
+  font-size: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-shadow: 1px 1px mediumaquamarine;
+}
+
+.whyZee{
+  color: #604d47;
+  margin-top: 1em;
+  font-size: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.likesList {
+  text-align: left;
+  margin-left: 5%;
+  color: white;
+}
+
+.creationTitle {
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+
+img {
+  max-width: 20%;
+  margin-bottom: 2em;
+}
+
+#pinkFlower {
+  max-width: 5%
+}
+
+.creationSections {
+  border: 10px solid transparent;
+  border-image: linear-gradient(pink, deeppink)1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 6px 6px 10px pink;
+}
+
+#zeesegoLogo { display: flex; justify-content: center; align-items: center; height: 200px; }
+
+#blackKitty {
+  justify-content: center;
+  max-width: 10%
+}
+
+/* STYLE NAV BAR */
+.navBar {
+  list-style-type: none;
+  background-color: #FFC6DB;
+  overflow: hidden;
+  padding: 1em;
+
+.navButtons {
+  display: inline;
+}  
+  li a {
+    text-decoration: none;
+    color: #AF877A;
+    font-size: 1.3m;
+    padding: 1em;
+  }
+  li a:hover {
+    background-color: #F9F1DB;
+  }
+}
+
+/* STYLE MAIN */
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
