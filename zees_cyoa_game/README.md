@@ -1,6 +1,6 @@
 
 ### Project Requirements
-Your project should:
+This project should:
 - Include at least five screens with text related to your story on each.
 - Start on a home screen that begins the story.
 - Include at least two screens that offer players a choice between two options.
