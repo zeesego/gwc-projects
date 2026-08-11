@@ -1,0 +1,264 @@
+/* FONTS */
+
+
+.lexend-<Lexend> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+}
+
+
+.league-spartan-<leagueSP> {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <600>;
+  font-style: normal;
+}
+
+/* STYLE SECTIONING TAGS */
+
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #52BED1; 
+}
+
+/* STYLE TEXT */
+
+#mainHeadTxt {
+  font-family: "League Spartan";
+  font-size: 195px;
+  color: white;
+}
+
+#mainHeadSen {
+  font-family: "League Spartan";
+  font-size: 175px;
+  color: white;
+}
+
+h1 {
+  color: navy;
+  font-family: "League Spartan";
+}
+
+
+p {
+  font-family: "Lexend";
+  font-size: 14px;
+  margin: 20px 50px;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: "League Spartan";
+  color: #0e0e49;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Lexend";
+  color: white;
+  font-size: 20px;
+  margin: 50px;
+}
+
+.imageCard p {
+  color: #0e0e49;
+  text-align: center;
+}
+
+.storyHead {
+  font-family: "Lexend";
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.manyMore h2 {
+  font-family: "League Spartan";
+  color: #0e0e49;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.whatToDo h2 {
+  margin-left: 60px;
+  padding-top: 60px;
+}
+
+.whatToDoContent p {
+  font-size: 18px;
+  color: black;
+}
+
+#senHead {
+  text-align: center;
+  font-size: 80px;
+  padding: 50px;
+}
+
+#senTxt {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 18px;
+}
+
+.SenSpan {
+  color: #50a31d;
+}
+
+/* STYLE IMAGES */
+
+.horImgLayout {
+  display: flex;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  justify-content: center;
+  margin-bottom: 0px;
+} 
+
+.imageCard img {
+  width: 70%;
+  height: auto;
+}
+
+.whatToDoContent img {
+  width: 20%;
+  height: auto;
+}
+
+/* STYLE NAV BAR */
+
+nav {
+  padding: 20px;
+  background-color: #5FCE1D;
+  color: white;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 20px 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lexend";
+}
+/* STYLE HEADER */
+header {
+  background-image: url(assets/headerofchild.jpg);
+  background-size: cover;
+  background-position: 50% 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 400px;
+  width: auto;
+}
+/* STYLE MAIN */
+
+.imageCard {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.theStory {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 60px;
+  justify-content: center;
+}
+
+.trueStories {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+iframe {
+  flex: 1.2;
+  aspect-ratio: 16/9;
+  height: auto;
+  margin-left: 60px;
+}
+
+.manyMore {
+  background-color: white;
+  margin-top: 0px;
+  padding-bottom: 40px;
+}
+
+.whatToDo {
+  background-color: white;
+}
+
+.whatToDoContent {
+  display: flex;
+  gap: 5px;
+  margin: 60px;
+  padding: 30px;
+  background-color: #F0F0F0;
+  border: 10px solid #5FCE1D;
+  border-radius: 10px;
+}
+
+.contactSen {
+  background-color: white;
+}
+/* STYLE BUTTONS */
+
+#scriptButton {
+  font-family: "Lexend";
+  background-color: pink;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* STYLE PERSONALIZE FEATURE */
+
+.scriptQues {
+  margin: 20px 150px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.scriptItem {
+  padding: 20px;
+  
+}
+.scriptItem label {
+  font-family: "Lexend";
+}
+
+#message {
+  margin-top: 5px;
+}
+
+.scriptItem {
+  display: flex;
+  flex-direction: column;
+}
+
+/* STYLE FOOTER */
+footer {
+  padding: 10px;
+  background-color: #5FCE1D;
+  color: white; 
+}
