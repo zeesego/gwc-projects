@@ -8,7 +8,6 @@ This project should:
 - Display different outcomes for different combinations of answer selections.
 
 ### Image Attributions
-*Tell us where you found the image you are using! Make sure it is in the public domain, has a license that allows you to use it, or is one you took on your own. Check out [archive.org](https://archive.org/), [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/), or [Burst](https://burst.shopify.com/) for free, uncopyrighted images.*
 
 - [Vanilla Froyo](https://unsplash.com/photos/a-cup-filled-with-whipped-cream-on-top-of-a-wooden-table-H0ok4nNff70)
 
